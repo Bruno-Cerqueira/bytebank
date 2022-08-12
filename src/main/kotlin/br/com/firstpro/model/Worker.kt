@@ -1,3 +1,5 @@
+package br.com.firstpro.model
+
 abstract class Worker(
     val name: String,
     val document: String,

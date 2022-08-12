@@ -1,9 +1,11 @@
+package br.com.firstpro.model
+
 class Manager (
     name: String,
     document: String,
     salary: Double,
     password: Int,
-) : AdminWorker (
+) : AdminWorker(
     name = name,
     document = document,
     salary = salary,

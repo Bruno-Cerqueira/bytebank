@@ -1,15 +1,15 @@
-class Director (
+package br.com.firstpro.model
+
+class Analyst (
     name: String,
     document: String,
     salary: Double,
-    password: Int,
-    val plr: Double,
-    ) : AdminWorker (
+) : Worker(
     name = name,
     document = document,
     salary = salary,
-    password = password
-) {
+)
+{
     override val extra: Double
         get() = salary * 0.2
 }

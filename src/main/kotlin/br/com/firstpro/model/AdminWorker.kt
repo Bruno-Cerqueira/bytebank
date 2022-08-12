@@ -1,9 +1,11 @@
+package br.com.firstpro.model
+
 abstract class AdminWorker(
     name: String,
     document: String,
     salary: Double,
     val password: Int,
-) : Worker (
+) : Worker(
     name = name,
     document = document,
     salary = salary,

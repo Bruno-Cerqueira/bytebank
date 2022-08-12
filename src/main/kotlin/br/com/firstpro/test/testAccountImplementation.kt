@@ -1,3 +1,5 @@
+import br.com.firstpro.model.Account
+
 fun testAccountImplementation() {
     val account1 = Account("Alex", 1000)
     val account2 = Account(number = 2000, name = "Fran")

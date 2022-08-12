@@ -1,5 +1,6 @@
+import br.com.firstpro.model.*
 
-    fun testingWorkers() {
+fun testingWorkers() {
         val alex = Analyst(
             name = "Alex",
             document = "111.111.111-11",

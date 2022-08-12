@@ -1,3 +1,5 @@
+package br.com.firstpro.model
+
 class Account(
     var name: String,
     var number: Int,
