@@ -8,7 +8,6 @@ class Director (
     document = document,
     salary = salary,
 ) {
-    override fun extra(): Double {
-        return salary + plr
-    }
+    override val extra: Double
+        get() = salary * 0.2
 }

@@ -8,7 +8,6 @@ class Analyst (
     salary = salary,
 )
 {
-    override fun extra(): Double {
-        return salary * 0.05
-    }
+    override val extra: Double
+        get() = salary * 0.2
 }
