@@ -2,11 +2,13 @@ class Director (
     name: String,
     document: String,
     salary: Double,
+    password: Int,
     val plr: Double,
-    ) : Worker (
+    ) : AdminWorker (
     name = name,
     document = document,
     salary = salary,
+    password = password
 ) {
     override val extra: Double
         get() = salary * 0.2

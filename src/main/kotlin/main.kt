@@ -12,8 +12,5 @@ fun main() {
 
     // testAccountImplementation()
 
-    val alex = Worker("Alex", "42033092302", 1000.0)
-
-    println("Nome ${alex.name}")
-    println("Extra ${alex.extra()}")
+    testingWorkers()
 }
