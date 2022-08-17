@@ -1,5 +1,6 @@
 import br.com.firstpro.model.Analyst
 import br.com.firstpro.test.testingAny
+import br.com.firstpro.test.testingExceptions
 
 fun main() {
     /*var owner = "Bruno"
@@ -15,7 +16,7 @@ fun main() {
 
     // testAccountImplementation()
 
-    testingAny()
+    testingExceptions()
 
 }
 
