@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c898b47-5399-490c-987a-dd12084af9cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/test/testingAny.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Account.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AdminWorker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/AdminWorker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Analyst.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Analyst.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Authenticate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Authenticate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Calculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Calculator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Director.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Director.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Manager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Manager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Worker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Worker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testAccountImplementation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/test/testAccountImplementation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/testingWorkers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/test/testingWorkers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -40,16 +32,16 @@
   <component name="ProjectId" id="2CuLhF86luMVp2HkKPMhvp82GyO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="model" />

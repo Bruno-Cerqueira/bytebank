@@ -1,3 +1,6 @@
+import br.com.firstpro.model.Analyst
+import br.com.firstpro.test.testingAny
+
 fun main() {
     /*var owner = "Bruno"
     println("Bem vindo ao Bytebank")
@@ -12,5 +15,11 @@ fun main() {
 
     // testAccountImplementation()
 
-    testingWorkers()
+    testingAny()
+
+}
+
+fun printTest(value: Any): Any {
+    println(value);
+    return value;
 }
