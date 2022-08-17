@@ -1,7 +1,14 @@
 import br.com.firstpro.model.*
 
 fun testingWorkers() {
+    val address1 = Address(
+        name = "Rua Vergueiro",
+        number = 400,
+        zip = "241-124"
+    )
+
         val alex = Analyst(
+            address = address1,
             name = "Alex",
             document = "111.111.111-11",
             salary = 1000.0
@@ -9,6 +16,7 @@ fun testingWorkers() {
 
         println("nome ${alex.name}")
         println("bonificação ${alex.extra}")
+        println("bonificação ${alex.address.name}")
 
         val fran = Manager(
             name = "Fran",

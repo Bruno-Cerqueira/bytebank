@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c898b47-5399-490c-987a-dd12084af9cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/test/testingAny.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/model/Address.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/model/Analyst.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/model/Analyst.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/model/Worker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/model/Worker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/test/testingAny.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/test/testingAny.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/test/testingWorkers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/firstpro/test/testingWorkers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
