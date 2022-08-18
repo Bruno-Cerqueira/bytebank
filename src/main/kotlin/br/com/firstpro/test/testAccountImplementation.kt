@@ -1,3 +1,4 @@
+import br.com.firstpro.exception.InsufficientMoneyException
 import br.com.firstpro.model.Account
 
 fun testAccountImplementation() {
@@ -22,10 +23,12 @@ fun testAccountImplementation() {
     println(account2.balance)
 
     println("TransferÊncia para conta do Alex")
-    if (account2.transfer(5.0, account1)) {
+    try {
+        account2.transfer(7.0, account1)
+        println("TransferÊncia para conta do Alex")
         println("Sucesso")
-    } else {
-        println("Falha")
+    } catch (e: InsufficientMoneyException) {
+        println(e.message)
     }
     println(account1.balance)
     println(account2.balance)

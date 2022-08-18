@@ -1,5 +1,3 @@
-import br.com.firstpro.model.Analyst
-import br.com.firstpro.test.testingAny
 import br.com.firstpro.test.testingExceptions
 
 fun main() {
@@ -14,9 +12,7 @@ fun main() {
     println("conta do titular $account")
     println("Saldo $balance")*/
 
-    // testAccountImplementation()
-
-    testingExceptions()
+    testAccountImplementation()
 
 }
 

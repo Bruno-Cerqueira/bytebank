@@ -1,5 +1,7 @@
 package br.com.firstpro.model
 
+import br.com.firstpro.exception.InsufficientMoneyException
+
 class Account(
     var name: String,
     var number: Int,
@@ -17,12 +19,11 @@ class Account(
         }
     }
 
-    fun transfer(value: Double, destination: Account): Boolean {
-        if(this.balance >=value) {
-            balance -= value
-            destination.deposit(value)
-            return true
+    fun transfer(value: Double, destination: Account) {
+        if(balance < value) {
+            throw InsufficientMoneyException()
         }
-        return false
+        balance -= value
+        destination.deposit(value)
     }
 }
