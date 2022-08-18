@@ -21,7 +21,7 @@ class Account(
 
     fun transfer(value: Double, destination: Account) {
         if(balance < value) {
-            throw InsufficientMoneyException()
+            throw InsufficientMoneyException("Saldo insuficente, saldo: $balance, transfer: $value")
         }
         balance -= value
         destination.deposit(value)

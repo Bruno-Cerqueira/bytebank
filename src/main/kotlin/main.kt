@@ -1,3 +1,4 @@
+import br.com.firstpro.test.testNull
 import br.com.firstpro.test.testingExceptions
 
 fun main() {
@@ -12,7 +13,7 @@ fun main() {
     println("conta do titular $account")
     println("Saldo $balance")*/
 
-    testAccountImplementation()
+    testNull()
 
 }
 
