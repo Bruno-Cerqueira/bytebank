@@ -1,5 +1,4 @@
-import br.com.firstpro.test.testNull
-import br.com.firstpro.test.testingExceptions
+import br.com.firstpro.test.*
 
 fun main() {
     /*var owner = "Bruno"
@@ -13,7 +12,7 @@ fun main() {
     println("conta do titular $account")
     println("Saldo $balance")*/
 
-    testNull()
+    testBook()
 
 }
 
